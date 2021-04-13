@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./assets/index.scss">
+    <script></script>
+    <script></script>
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <nav id="nav-wrapper">
+        <ul id="nav-item">
+            <span>
+                <a href="index.html">MAIN</a>
+            </span>
+            <li class="nav-links">
+                <a href="accounts.html">accounts</a>
+            </li>
+            <li class="nav-links">
+                <a href="contact.html">contact</a>
+            </li>
+            <li class="nav-links">
+                <a href="about.html">about</a>
+            </li>
+        </ul>
+        <div id="dropdown" class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class="dropdown-content">
+                <a href="index.html">home</a>
+                <a href="about.html">about</a>
+                <a href="contact.html">contact</a>
+                <a href="accounts.html">accounts</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- top content -->
+<div class="top-img" itemid="author" itemprop="author">
+    <h1>Music Store</h1>
+    <p>All Instruments Found Here!!!!!</p>
+</div>
+<!-- javascript code -->
+<div id="demo"></div>
+<br><br><br><br><br><br>
+<div class="container">
+    <center>
+        <section>
+            <img src="./images/laptop.png" alt="laptop" style="width:300px; height:300px;" />
+        </section>
+        
+        <article itemid="article-section">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Asperiores labore, recusandae officiis voluptate fugit
+            quas laudantium laborum neque praesentium soluta, vitae
+            repellendus! Officia eos ratione illum quisquam repellat
+            omnis dolore!
+        </article>
+    </center>
+</div>
+
+<form action="submission.js" method="POST">
+    <h1>Contact Me</h1>
+    <label for="name">
+        <input name="name" placeholder="Your name" required type="text">
+    </label> <br>
+    <label for="">
+        <input name="email" placeholder="Your email" required type="email">
+    </label> <br>
+    <textarea name="message" placeholder="Your message here..." required maxlength="255" spellcheck="true" id="" cols="30" rows="10"></textarea> <br>
+    <button>SEND</button>
+</form>
+<script type="text/javascript" src="./js/main.js"></script>
+<script type="text/javascript" src="assets/jquery-3.6.0.min.js"></script>
+<footer style="text-align: center;">
+    <hr>
+    <nav>
+        <a href="index.html">home</a> |
+        <a href="about.html">about</a> |
+        <a href="contact.html">contact</a> |
+        <a href="accounts.html">accounts</a>
+    </nav>
+    <p>CopyRight 2021, Company.com</p>
+</footer>
+
+</body>
+</html>
